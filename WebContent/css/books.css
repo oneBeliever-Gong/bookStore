@@ -1,0 +1,315 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body, ul, li, ol, p, dl, dd, h1, h2, h3, h4, h5, h6, img, iframe, form, div {
+    list-style-type: none;
+    border: 0;
+}
+
+.tools {
+	width: 100%;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #f2f2f2;
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+	z-index: 10010;	
+	list-style-type: none;
+	border: 0;
+}
+
+.tools a {
+	text-decoration: none;
+	color: #646464;
+	display: inline-block;
+	margin-right: 4px;
+}
+
+.top_link {
+	width: 1200px;
+	margin: 0 auto;
+	background-color: #f9f9f9;
+	height: 34px;
+	color: #646464;
+	line-height: 34px;
+}
+
+img {
+	display: block;
+}
+
+.menu_btn {
+	text-decoration: none;
+}
+
+.ycbooks_welcom {
+	float: right;
+}
+
+.breadcrumb {
+	color: #646464;
+	font: 12px/40px "simsun";
+	height: 40px;
+	padding-bottom: 8px;
+	position: relative;
+	z-index: 10000;
+	list-style-type: none;
+	border: 0;
+	margin: 0;
+}
+
+.breadcrumb a.domain {
+    font: 14px/40px "Microsoft Yahei";
+}
+
+.breadcrumb a, .breadcrumb a:hover {
+    color: #646464;
+    float: left;
+}
+
+.breadcrumb span.gt {
+    color: #646464;
+    margin: 1px 6px 0;
+    float: left;
+}
+
+.product_main {
+	width: 1200px;
+	margin: 0 auto;
+	list-style-type: none;
+	border: 0;
+}
+
+.product_main .pic_info {
+	float: left;
+	width: 320px;
+	padding: 0 20px 30px 0;
+	list-style-type: none;
+	border: 0;
+}
+
+.product_main .pic_info .pic {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 7777;
+}
+
+.product_main .pic_info .pic .img, .product_main .pic_info .pic .img {
+    display: block;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product_main .pic_info .pic .img, .product_main .pic_info .pic .img img {
+    display: block;
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.product_main {
+    font: 12px "Hiragino Sans GB","Verdana","Simsun";
+}
+
+.product_main .pic_info .pic .big_pic {
+    border: 1px solid #f5f5f5;
+    position: absolute;
+    left: 320px;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+    text-align: center;
+}
+
+.product_main .pic_info .pic .big_pic img {
+    width: 800px;
+    height: 800px;
+}
+
+.product_main .pic_info .pic .cool_label_80 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.product_main .pic_info .dp_slide {
+    width: 320px;
+    margin: 8px auto 0;
+    position: relative;
+}
+
+.product_main .pic_info .dp_slide ul li {
+    float: left;
+    margin-right: 3px;
+    width: 56px;
+    height: 56px;
+}
+
+.product_main .share_div {
+    padding-top: 5px;
+    position: relative;
+}
+
+.product_main .share_div a i, .product_main .share_div .btn_sjf i {
+    float: left;
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    background: url(../images/product_sprites.png) no-repeat 0 0;
+        background-position-x: 0px;
+        background-position-y: 0px;
+    margin: 2px 5px 0 0;
+    _display: inline;
+    position: relative;
+    top: -1px\0;
+    *top: -2px;
+}
+
+.product_main .share_div .share_icon {
+    float: left;
+}
+
+.product_main .show_info {
+    float: left;
+    width: 860px;
+    font: 12px "Verdana","Simsun";
+    color: #646464;
+}
+
+.product_main .sale_box {
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    background: url(../images/sale_box_bg.png) repeat-y 670px 0;
+    margin-top: 5px;
+}
+
+.product_main .sale_box .sale_box_left {
+    width: 630px;
+    float: left;
+}
+
+.product_main .name_info {
+    font-family: "Verdana","Microsoft Yahei";
+    font-weight: normal;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 6px 12px 0;
+}
+
+.product_main .name_info h1 {
+    line-height: 24px;
+    max-height: 48px;
+    _height: expression(this.scrollHeight>48 ? "48px":"auto");
+    overflow: hidden;
+    color: #323232;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.product_main .name_info h2 {
+    padding-top: 6px;
+    max-height: 96px;
+    _height: expression(this.scrollHeight>96 ? "96px":"auto");
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.product_main .sale_box .messbox_info .t1 {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.product_main .show_info a, .product_main .show_info a:hover {
+    color: #1a66b3;
+    text-decoration: none;
+}
+
+.product_main .sale_box .price_info {
+    background-color: #fcfaf7;
+    padding: 0 0 0 10px;
+    margin: 6px 0 0 -10px;
+    line-height: 24px;
+    position: relative;
+    width: 630px;
+    z-index: 6666;
+}
+
+.price_info .price_pc {
+    float: left;
+    padding-bottom: 0;
+}
+
+.price_info .price_pc .price_d {
+    font-size: 26px;
+    color: #e52222;
+}
+
+.price_info .price_pc .price_d, .price_info .price_pc .price_zhe,
+	.price_info .price_pc .price_m, .price_info .price_pc .price_vip,
+	.price_info .price_pc .price_hdj {
+	float: left;
+	overflow: hidden;
+	padding: 9px 5px 0 0;
+}
+
+.price_info .t {
+	color: #8f8f8f;
+	font-weight: normal !important;
+	font-size: 12px !important;
+}
+
+.price_info .price_pc .price_zhe {
+	color: #e52222;
+	height: 49px;
+	display: flex;
+	align-items: flex-end;
+	line-height: 1.5;
+	font-size: 13px;
+}
+
+.price_info .price_pc .price_m_t {
+	text-decoration: none;
+	padding-right: 0;
+	color: #969696;
+}
+
+.price_info .price_pc .price_m {
+	text-decoration: line-through;
+	color: #969696;
+}
+
+.price_info .price_e {
+	float: left;
+	color: #214c90;
+	font-size: 26px;
+	padding: 3px 5px 7px;
+	margin-left: 20px;
+}
+
+.price_info .t {
+	color: #8f8f8f;
+	font-weight: normal !important;
+	font-size: 12px !important;
+}
+
+.price_info .price_e a, .price_info .price_e a:hover {
+	font-size: 26px;
+	color: #214c90;
+	text-decoration: none;
+}
+
